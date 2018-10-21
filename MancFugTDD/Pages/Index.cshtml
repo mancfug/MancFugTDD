@@ -6,4 +6,27 @@
 
 <div class="row">
     <h2>Type driven checkout kata</h2>
+    <form method="post">
+        <label asp-for="Code">Product Code:
+            <input asp-for="Code" type="text" />
+        </label>
+        @Html.ValidationMessage("Code")
+        <label asp-for="Quantity">Quantity:
+            <input asp-for="Quantity" type="number" />
+        </label>
+        @Html.ValidationMessage("Quantity")
+        <input type="submit" value="Scan" />
+        <hr/>
+        <h3>Basket</h3>
+        @for (var i = 0; i < Model.Items.Length; i++)
+        {
+        <div>
+            <span>@Model.Items[i].Description</span>
+            <span>@Model.Items[i].Cost</span>
+            <input type="hidden" asp-for="Items[i].Item" />
+            <input type="hidden" asp-for="Items[i].Quantity" />
+            <input type="hidden" asp-for="Items[i].Rule" />
+        </div>
+        }
+    </form>
 </div>

@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE = LICENSE
 	EndProjectSection
 EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "MancFugTDD.Domain", "MancFugTDD.Domain\MancFugTDD.Domain.fsproj", "{9CDF6A77-103A-42B9-A992-37C3E9AA656A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +22,9 @@ Global
 		{00CB43CC-0108-4627-B5C6-9F5FCF9CA438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00CB43CC-0108-4627-B5C6-9F5FCF9CA438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00CB43CC-0108-4627-B5C6-9F5FCF9CA438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDF6A77-103A-42B9-A992-37C3E9AA656A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDF6A77-103A-42B9-A992-37C3E9AA656A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDF6A77-103A-42B9-A992-37C3E9AA656A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDF6A77-103A-42B9-A992-37C3E9AA656A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -14,9 +14,11 @@ Takes a look...
 
 Get some ubiquitous language:
 
+- SKU
 - UnitPrice
 - SpecialPrice
 - Checkout
 - PricingRule
-
+- Basket
+- Quantity
 
